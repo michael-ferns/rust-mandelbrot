@@ -120,7 +120,7 @@ fn test_pixel_to_point() {
     assert_eq!(pixel_to_point((100,200), (25, 175), Complex { re: -1.0, im: 1.0}, Complex { re: 1.0, im: -1.0}), Complex { re: -0.5, im: -0.75})
 }
 
-/// Try to determine id 'c' is in the Madnelbrot set, using at most 'limit' iterations to decide.
+/// Try to determine id 'c' is in the Mandelbrot set, using at most 'limit' iterations to decide.
 /// 
 /// If 'c' is not a member, return 'Some(i)', where 'i' is the number of iterations it took
 /// for 'c' to leave the circle of radius 2 centered on the origin.
